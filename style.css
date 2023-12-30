@@ -1,18 +1,30 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
   background-color: #f2f2f2;
   text-align: center;
   padding: 50px;
 }
+
 .apology {
-  background-color: white;
+  background-color: #ffe0f0; /* Soft pink background */
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Softer shadow */
+  border: 2px solid #ffaec0; /* Light border */
 }
+
 h1 {
-  color: #333;
+  color: #ff6bcb; /* Brighter color for the header */
+  font-size: 2.5em; /* Larger font size */
 }
+
 p {
-  color: #555;
+  color: #333; /* Darker color for text */
+  font-size: 1.2em; /* Slightly larger text */
+}
+
+/* Adding some cute decorations */
+.decorative-heart {
+  color: #ff6bcb;
+  font-size: 2em;
 }
